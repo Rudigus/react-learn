@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <h1>Testando 1 2 3</h1>
       <p>Aparentemente tá funcionando</p>
       <p>A soma de {n1} com {n2} é {sum(n1, n2)}</p>
+      <HelloWorld />
     </div>
   );
 }
